@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Адвокатське об'єднання</title>
+  <meta name="description" content="Адвокатське об'єднання — юридична допомога фізичним особам і бізнесу.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="nav__logo" id="nav-logo">Назва об'єднання</a>
+      <nav class="nav__menu" id="nav-menu">
+        <a href="#about">Про нас</a>
+        <a href="#team">Команда</a>
+        <a href="#services">Послуги</a>
+        <a href="#testimonials">Відгуки</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+      <a href="#contacts" class="btn btn--primary nav__cta">Консультація</a>
+      <button class="nav__burger" id="nav-burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow" id="hero-eyebrow"></p>
+          <h1 class="hero__title" id="hero-title"></h1>
+          <p class="hero__subtitle" id="hero-subtitle"></p>
+          <div class="hero__actions">
+            <a href="#contacts" class="btn btn--primary">Безкоштовна консультація</a>
+            <a href="#services" class="btn btn--ghost">Наші послуги</a>
+          </div>
+          <div class="hero__stats" id="hero-stats"></div>
+        </div>
+        <div class="hero__media" id="hero-media" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <p class="section__eyebrow">Про нас</p>
+        <h2 class="section__title">Команда, якій довіряють</h2>
+        <p class="section__lead" id="about-text"></p>
+        <div class="grid grid--4" id="about-advantages"></div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <div class="container">
+        <p class="section__eyebrow">Команда</p>
+        <h2 class="section__title">Наші адвокати</h2>
+        <p class="section__lead">Досвідчені фахівці у ключових галузях права.</p>
+        <div class="grid grid--3" id="team-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <p class="section__eyebrow">Послуги</p>
+        <h2 class="section__title">Напрями роботи</h2>
+        <p class="section__lead">Повний спектр юридичних послуг для фізичних осіб і бізнесу.</p>
+        <div class="grid grid--3" id="services-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <p class="section__eyebrow">Відгуки</p>
+        <h2 class="section__title">Що кажуть клієнти</h2>
+        <div class="grid grid--3" id="testimonials-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="faq">
+      <div class="container container--narrow">
+        <p class="section__eyebrow">FAQ</p>
+        <h2 class="section__title">Часті запитання</h2>
+        <div class="faq" id="faq-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="social">
+      <div class="container">
+        <p class="section__eyebrow">Соцмережі</p>
+        <h2 class="section__title">Стежте за нами</h2>
+        <p class="section__lead">Корисний контент про право — у зручному для вас форматі.</p>
+        <div class="social" id="social-links"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contacts">
+      <div class="container">
+        <p class="section__eyebrow">Контакти</p>
+        <h2 class="section__title">Звʼяжіться з нами</h2>
+        <div class="contacts">
+          <div class="contacts__info">
+            <ul class="contacts__list" id="contacts-list"></ul>
+            <div class="contacts__actions" id="contacts-actions"></div>
+          </div>
+          <div class="contacts__map">
+            <iframe id="contacts-map" title="Мапа" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <button class="to-top" id="to-top" aria-label="Нагору">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
