@@ -55,7 +55,7 @@ const SITE_DATA = {
   },
   contacts: {
     phone: "+38 (097) 315-66-92",
-    email: "info@example.com",
+    email: "legalpositionlf@gmail.com",
     address: "м. Черкаси, бульв. Шевченка, 222, оф. 3, 5",
     hours: "Пн–Пт, 9:00–18:00",
     telegramUrl: "https://t.me/",
