@@ -34,7 +34,7 @@ jobs:
         # Publish the runtime site (keeps docs/, mockups/, scripts/ off the live URL).
         run: |
           mkdir -p _site
-          cp index.html styles.css script.js site-data.js sitemap.xml robots.txt favicon.ico _site/
+          cp index.html styles.css script.js site-data.js sitemap.xml robots.txt favicon.ico CNAME _site/
           cp -r assets _site/assets
           cp -r images _site/images
 
