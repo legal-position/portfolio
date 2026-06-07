@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://legal-position.github.io/sitemap.xml
+Sitemap: https://legal-position.pp.ua/sitemap.xml
